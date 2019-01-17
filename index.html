@@ -176,12 +176,31 @@
         <section id="telas">
             <h1>Telas</h1>
             <div class="separador"></div>
-            <div class="">
-                <img src="img/boletos.png" alt="">
-                <img src="img/puntos.png" alt="">
-                <img src="img/trailers.png" alt="">
-            </div>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/boletos.png">
+                            <img src="img/boletos.png" alt="">
+                        </a>
+                    </div><!--.col-sm-4-->
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/puntos.png">
+                            <img src="img/puntos.png" alt="">
+                        </a>
+                    </div><!--.col-sm-4-->
+                    <div class="col-sm-4">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/trailers.png">
+                            <img src="img/trailers.png" alt="">
+                        </a>
+                    </div><!--.col-sm-4-->
+                </div><!--.row-->
+            </div><!--.container-->
+            <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+                <div class="modal-body">
+                    <img src="#" alt="">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                </div>
+            </div><!--#modal-->
         </section><!--#telas-->
         <section id="parallax">
             <h2 class="parallax">Disponível também para iPad</h2>
