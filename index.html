@@ -206,7 +206,7 @@
             <h2 class="parallax text-center">Disponível também para iPad</h2>
         </section><!--#parallax-->
         <section id="baixar">
-            <h1>Baixar</h1>
+            <h1 class="text-center">Baixar</h1>
             <div class="separador"></div>
             <div class="container-fluid">
                 <img src="img/descargarApp.png" alt="">
@@ -229,25 +229,35 @@
             </div><!--.container-fluid-->
         </section><!--#baixar-->
         <section id="suporte">
-            <h1>Suporte</h1>
-            <p>Entre em contato conosco pelo formulário</p>
+            <h1 class="text-center">Suporte</h1>
+            <p class="text-center">Entre em contato conosco pelo formulário</p>
             <div class="separador"></div>
-            <div class="">
-                <form action="">
-                    <div class="">
-                        <input type="text" placeholder="Nome">
-                    </div>
-                    <div class="">
-                        <input type="email" placeholder="E-mail">
-                    </div>
-                    <div class="">
-                        <textarea placeholder="Mensagem"></textarea>
-                    </div>
-                    <div class="">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" placeholder="Nome">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <textarea class="form-control" placeholder="Mensagem"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-default">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--.col-md-8.col-md-offset-2-->
+            </div><!--.row-->
         </section><!--#suporte-->
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
