@@ -10,6 +10,17 @@ body > section {
     padding: 50px 0;
 }
 
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    color: #0c243d;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
 h2 {
     color: #0c243d;
     text-transform: uppercase;
@@ -23,6 +34,10 @@ h2 {
     display: block;
     margin: 0 auto 30px auto;
     background-color: #0c243d;
+}
+
+.cinzaBG {
+    background-color: #f5f5f5;
 }
 
 /** #Principal **/
@@ -48,6 +63,37 @@ section#app .social {
     line-height: 180px;
 }
 
+/** #Caracteristicas **/
+
+section#caracteristicas p {
+    font-size: .9em;
+    color: #858585;
+}
+
+section#caracteristicas .caracteristica{
+    margin-bottom: 20px;
+    clear: both;
+}
+
+section#caracteristicas .icone {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #123156;
+    margin: 0 auto;
+    line-height: 140px;
+    text-align: center;
+}
+
+/** #Telas **/
+
+div.modal-body {
+    text-align: center;
+}
+
+div.modal-body img {
+    max-height: 90%;
+}
 
 
 
