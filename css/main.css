@@ -28,6 +28,16 @@ h2 {
     font-size: 1.4em;
 }
 
+h2.parallax {
+    font-size: 3.6em;
+    font-weight: 700;
+    text-transform: none;
+    color: #FFF;
+    text-shadow: 0px 7px 8px black;
+    -webkit-text-shadow: 0px 7px 8px black;
+    -moz-text-shadow: 0px 7px 8px black;
+}
+
 .separador {
     width: 40px;
     height: 4px;
@@ -95,6 +105,13 @@ div.modal-body img {
     max-height: 90%;
 }
 
+/** Parallax **/
+
+section#parallax {
+    height: 500px;
+    background: url(../img/ipadApp.jpg) no-repeat fixed;
+    background-size: cover;
+}
 
 
 
