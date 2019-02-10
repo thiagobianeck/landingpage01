@@ -50,6 +50,10 @@ h2.parallax {
     background-color: #f5f5f5;
 }
 
+.azulBG {
+    background-color: #123156;
+}
+
 /** #Principal **/
 
 section#principal {
@@ -164,6 +168,61 @@ section#baixar .plataformas > div span{
     font-weight: bold;
 }
 
+/** Suporte **/
+
+section#suporte h1 {
+    color: #FFF;
+}
+
+section#suporte .separador {
+    background-color: #FFF;
+}
+
+section#suporte p {
+    font-size: 1.6em;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+section#suporte .campos {
+    background-color: #123156;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+section#suporte form{
+    margin-top: 30px;
+}
+
+section#suporte input{
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+section#suporte textarea {
+    min-height: 200px;
+}
+
+section#suporte .btn.btn-default{
+    background-color: #FFF;
+    border-radius: 14px;
+    padding: 5px 43px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF!important;
+}
+
+:-moz-placeholder {
+    color: #FFF!important;
+}
+
+::-moz-placeholder {
+    color: #FFF!important;
+}
 
 
 
