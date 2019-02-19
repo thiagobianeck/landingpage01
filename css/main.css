@@ -66,6 +66,10 @@ section#principal {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e325a', endColorstr='#0c223b',GradientType=0 );
 }
 
+section#principal img{
+    margin: 0 auto;
+}
+
 /** #App **/
 
 section#app .social {
@@ -84,6 +88,8 @@ section#caracteristicas p {
     color: #858585;
 }
 
+
+
 section#caracteristicas .caracteristica{
     margin-bottom: 20px;
     clear: both;
@@ -97,6 +103,10 @@ section#caracteristicas .icone {
     margin: 0 auto;
     line-height: 140px;
     text-align: center;
+}
+
+section#caracteristicas img#appCentral{
+    margin: 0 auto;
 }
 
 /** #Telas **/

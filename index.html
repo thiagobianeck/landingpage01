@@ -22,7 +22,7 @@
     </head>
     <body>
         <section id="principal" class="text-center">
-            <img src="img/appPrincipal.png" alt="">
+            <img class="img-responsive" src="img/appPrincipal.png" alt="">
         </section><!--#principal-->
         <section id="app">
             <div class="container">
@@ -111,7 +111,7 @@
                         </div><!--#caracteristica-->
                     </section>
                     <section class="col-md-4 text-center">
-                        <img src="img/appCentral.png" alt="">
+                        <img id="appCentral" class="img-responsive" src="img/appCentral.png" alt="">
                     </section>
 
                     <section class="col-md-4 text-right">
@@ -181,24 +181,24 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <a href="#modal" data-toggle="modal" data-image-url="img/boletos.png">
-                            <img src="img/boletos.png" alt="">
+                            <img class="img-responsive" src="img/boletos.png" alt="">
                         </a>
                     </div><!--.col-sm-4-->
                     <div class="col-sm-4">
                         <a href="#modal" data-toggle="modal" data-image-url="img/puntos.png">
-                            <img src="img/puntos.png" alt="">
+                            <img class="img-responsive" src="img/puntos.png" alt="">
                         </a>
                     </div><!--.col-sm-4-->
                     <div class="col-sm-4">
                         <a href="#modal" data-toggle="modal" data-image-url="img/trailers.png">
-                            <img src="img/trailers.png" alt="">
+                            <img class="img-responsive" src="img/trailers.png" alt="">
                         </a>
                     </div><!--.col-sm-4-->
                 </div><!--.row-->
             </div><!--.container-->
             <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
                 <div class="modal-body">
-                    <img src="#" alt="">
+                    <img class="img-responsive" src="#" alt="">
                     <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
                 </div>
             </div><!--#modal-->
@@ -212,7 +212,7 @@
             <div class="container-fluid" style="padding: 0; position: relative;">
                 <div class="conteudoDownload">
                     <div class="phone">
-                        <img src="img/descargarApp.png" alt="">
+                        <img class="img-responsive" src="img/descargarApp.png" alt="">
                     </div>
                     <div class="direitaVazio">
 
@@ -240,32 +240,34 @@
             <h1 class="text-center">Suporte</h1>
             <p class="text-center">Entre em contato conosco pelo formulário</p>
             <div class="separador"></div>
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input type="text" class="form-control campos" placeholder="Nome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control campos" placeholder="Nome">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <input type="email" class="form-control campos" placeholder="E-mail">
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" class="form-control campos" placeholder="E-mail">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <textarea class="form-control campos" placeholder="Mensagem"></textarea>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control campos" placeholder="Mensagem"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <button type="submit" class="btn btn-default">Enviar</button>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <button type="submit" class="btn btn-default">Enviar</button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                </div><!--.col-md-8.col-md-offset-2-->
-            </div><!--.row-->
+                        </form>
+                    </div><!--.col-md-8.col-md-offset-2-->
+                </div><!--.row-->
+            </div>
         </section><!--#suporte-->
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
